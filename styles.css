@@ -7,7 +7,11 @@
 }
 
 body {
-    background-color: var(--Yellow);    
+    background-color: var(--Yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .mainContainer {
@@ -15,19 +19,15 @@ body {
     width: 309px;
     height: 423px;
     border: solid var(--Grey) 2px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     box-shadow: 10px 10px var(--Black);
     margin: 174px auto 0 auto;
     border-radius: 20px;
 }
 
 #img {
-    margin-top: -43px;
     margin-left: auto;
     margin-right:auto;
+    margin-top: 16px;
     width: 100%;
     max-width: 269px;
     height: 100%;
@@ -38,11 +38,9 @@ body {
     border-radius: 9px;
 }
 #learning {
-    position: absolute;
-    top: 372px;
-    left: 549px;
+    margin-left: 18px;
+    margin-top: 14px;
     padding-left: 5px;
-    margin-right: 0px;
     padding-top: 2px;
     padding-bottom: 2px;
     padding-right: 5px;
@@ -51,16 +49,18 @@ body {
     color: var(--Black);
     background-color: var(--Yellow);
     border-radius: 5px;
+    width: 100%;
+    max-width: 65px;
 }
 
 #publishedDate {
     color: var(--Black);
-    position: relative;
     font-size: 12px;
     font-family: "Figtree";
-    top: 51px;
-    left: -74px;
+    margin-top: 15px;
+    margin-left: 17px;
 }
+
 
 h3 {
     color: var(--Black);
@@ -68,30 +68,26 @@ h3 {
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    position: relative;
-    top: 41px;
-    left: -27px;
-
+    margin-top: 9.72px;
 }
 
 p {
     color: var(--Grey);
-    position: relative;
-    left: 16px;
-    margin-top: -23px;
-    top: 62px;
+    margin-top: -5px;
+    margin-left: 17px;
+    margin-bottom: 28px;
+}
+
+a {
+   margin-left: 17px; 
 }
 
 #nameOfAuthor {
-    display: flex;
-    flex-direction: row;
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    position: relative;
-    top: 72px;
-    left: -32px;
+    margin-left: 70px;
 }
 
 a {
@@ -103,14 +99,12 @@ a:hover {
 }
 
 #propic {
-    position: relative;
     border: solid red 0px;
-    width: 35px;
-    height: 35px;
-    margin: 0;
+    width: 40px;
+    height: 40px;
+    margin-top: -28px;
+    margin-left: 17px;
     padding: 0px;
-    top: 45px;
-    left: -118px;
     border-radius: 20px;
     background:  url(images/yashpropic.jpg);
     background-repeat: no-repeat;
